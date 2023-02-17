@@ -40,9 +40,7 @@ const Settings = () => {
     }, []);
 
     const formSubmit = () => {
-        axios.post('https://api.truckgrub.io/Uploads/uploader.php', {data: "1"}).then(res => {
-            console.log(res);
-        })
+        
     }
 
     return (
